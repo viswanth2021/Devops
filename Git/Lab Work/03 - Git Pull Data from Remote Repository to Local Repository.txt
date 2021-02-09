@@ -1,0 +1,23 @@
+Once the Date is modified in a perticular file. We have to use below command to pull the data from Remote Repository to local Repository.
+
+Alekya Tripura@Alekya MINGW64 /e/Study Material/DevOps/myweb (master)
+$ git pull origin master
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 1.51 KiB | 81.00 KiB/s, done.
+From https://github.com/viswanth2021/myweb
+ * branch            master     -> FETCH_HEAD
+   c616df1..d836e74  master     -> origin/master
+Updating c616df1..d836e74
+Fast-forward
+ sample | 1 +
+ 1 file changed, 1 insertion(+)
+
+$ cat sample
+Hi this is sample file for DevOps class
+One New line is updated
+
+Alekya Tripura@Alekya MINGW64 /e/Study Material/DevOps/myweb (master)
+$

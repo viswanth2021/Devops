@@ -1,0 +1,32 @@
+Once After creating the file in the Github successfully use the below command to pull the new file from Remote Repository to Local Repository
+
+Alekya Tripura@Alekya MINGW64 /e/Study Material/DevOps/myweb (master)
+$ git pull https://github.com/viswanth2021/myweb.git master
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 1.52 KiB | 45.00 KiB/s, done.
+From https://github.com/viswanth2021/myweb
+ * branch            master     -> FETCH_HEAD
+Updating d836e74..776d994
+Fast-forward
+ OnePlus | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 OnePlus
+
+Alekya Tripura@Alekya MINGW64 /e/Study Material/DevOps/myweb (master)
+$ cat OnePlus
+Hi This is sample file for oneplus Mobile
+
+Alekya Tripura@Alekya MINGW64 /e/Study Material/DevOps/myweb (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+Alekya Tripura@Alekya MINGW64 /e/Study Material/DevOps/myweb (master)
+$
+
